@@ -52,3 +52,14 @@
   background: black;
   padding: 15px;
 }
+
+.list {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.list > h4, .list > p {
+  margin-top: 15px;
+
+}
