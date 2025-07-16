@@ -35,7 +35,7 @@ function App() {
       </div>
       <div className="list">
         <h4 onClick={() => {
-          
+          setShow(show? <Detail/> : '');
         }}>{boardTitle[2]}</h4>
         <p>2025-07-16</p>
       </div>
