@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +39,27 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  color: white;
+  background: black;
+  padding: 15px;
+}
+
+.list {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+.list > h4, .list > p {
+  margin-top: 15px;
+
 }
